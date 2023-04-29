@@ -1,0 +1,859 @@
+@media screen and (min-width: 400px) {
+  html {
+    background-color: rgba(122, 191, 191, 0.5);
+    margin: 0 auto;
+  }
+
+  body {
+    background-color: #7abfbf;
+    margin: 0 auto;
+    width: 414px;
+  }
+
+  h1 {
+    font-size: 40px;
+    font-family: "Bebas Neue", cursive;
+    text-align: center;
+    margin: 0;
+    padding-top: 170px;
+    background-color: #f2f2f2;
+  }
+
+  .retention-icons {
+    width: 414px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 35px 30px;
+    grid-gap: 1px 10px;
+    justify-items: center;
+    font-size: 20px;
+    font-family: "Bebas Neue", cursive;
+    padding: 0;
+    list-style-type: none;
+    background-color: #f2f2f2;
+  }
+
+  .retention-children {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    color: #eb5428;
+  }
+
+  #entree {
+    background-color: #f2f2f2;
+  }
+
+  #entree ul {
+    padding-left: 5px;
+  }
+
+  #entree img {
+    width: 414px;
+    height: 100%;
+  }
+
+  #entree p {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  #entree h2,
+  .ingredients-ul h2,
+  .directions h2,
+  .extras h2 {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: "Bebas Neue", cursive;
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  .ingredients-ul li {
+    padding: 5px;
+    margin-left: 15px;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .instruction-child {
+    padding: 0;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    list-style-type: none;
+  }
+
+  .directions {
+    padding: 0;
+  }
+
+  .directions li {
+    margin-left: 25px;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+  }
+
+  .menu {
+    width: 414px;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    background-color: #f2f2f2;
+    border-bottom: 2px solid rgba(13, 13, 13, 0.5);
+    z-index: 99;
+  }
+
+  .logo {
+    position: absolute;
+    top: 0;
+    left: 75px;
+    background-color: #eb5428;
+    width: 250px;
+    height: 70px;
+  }
+
+  .burger {
+    position: absolute;
+    top: 8px;
+    left: 20px;
+  }
+
+  .home {
+    position: absolute;
+    top: 51px;
+    left: 23px;
+    color: #0d0d0d;
+    font-size: 19px;
+    font-family: "Bebas Neue", cursive;
+  }
+
+  .avatar {
+    position: absolute;
+    top: -6px;
+    right: 15px;
+  }
+
+  .avatar:hover {
+    cursor: pointer;
+  }
+
+  .login {
+    position: relative;
+    position: absolute;
+    top: 53px;
+    right: 25px;
+    color: #0d0d0d;
+    font-size: 18px;
+    font-family: "Bebas Neue", cursive;
+  }
+
+  .search-icon:hover {
+    cursor: pointer;
+  }
+
+  .search-icon {
+    position: absolute;
+    top: 100px;
+    margin-left: 312px;
+    height: 45px;
+    width: 45px;
+    background-color: #eb5428;
+  }
+
+  .search-bar input {
+    position: absolute;
+    top: 100px;
+    margin-left: 50px;
+    height: 40px;
+    width: 300px;
+    border: 2px solid #0d0d0d;
+  }
+
+  .menu h2,
+  .search-bar h2,
+  .connect h2 {
+    visibility: hidden;
+    height: 1px;
+  }
+
+  .menu nav {
+    background-color: #f2f2f2;
+  }
+
+  .menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+    background-color: #f2f2f2;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Bebas Neue", cursive;
+  }
+
+  .menu li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .menu li:hover {
+    background-color: green;
+    color: #f2f2f2;
+  }
+
+  .menu li a {
+    padding-left: 170px;
+    padding-right: 170px;
+    text-align: center;
+  }
+
+  .menu img {
+    display: none;
+  }
+
+  .food {
+    color: #eb5428;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px;
+  }
+
+  .food:hover {
+    color: #f2f2f2;
+    text-align: center;
+    background-color: #eb5428;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .retention-children {
+    display: grid;
+  }
+
+  .retention-children:hover {
+    cursor: pointer;
+  }
+
+  .retention-children a:hover {
+    background-color: #eb5428;
+    color: #f2f2f2;
+    cursor: pointer;
+  }
+
+  label {
+    cursor: pointer;
+    display: inline-block;
+    padding: 13px;
+    user-select: none;
+  }
+
+  label svg {
+    background-color: #fff;
+    display: block;
+    position: relative;
+    transition: background-color 0.5s ease-out;
+  }
+
+  label span:before,
+  label span:after {
+    background: #fff;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all 0.4s ease-out;
+    width: 100%;
+  }
+
+  label span:after {
+    top: -5px;
+  }
+
+  label span:before {
+    top: 5px;
+  }
+
+  #dropdown {
+    display: none;
+  }
+
+  input:checked ~ ul {
+    max-height: 400px;
+  }
+
+  input:checked ~ label span {
+    background: transparent;
+  }
+
+  input:checked ~ label:not(.steps) span:before,
+  input:checked ~ label:not(.steps) span:after {
+    top: 0;
+  }
+
+  .connect {
+    background-color: #f2f2f2;
+  }
+
+  .connect ul {
+    width: 414px;
+    font-family: "Bebas Neue", cursive;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 35px 30px;
+    grid-gap: 1px 10px;
+    justify-items: center;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+
+  .connect-child {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+  }
+
+  .connect a {
+    color: #eb5428;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  .connect li a:hover {
+    cursor: pointer;
+    background-color: #eb5428;
+    color: #f2f2f2;
+  }
+
+  .extras-block {
+    display: grid;
+    grid-template-rows: 150px 150px 150px 150px;
+    grid-template-columns: 1fr;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+
+  .extras-children:hover,
+  .extras-block img:hover {
+    background-color: #f2a007;
+    cursor: pointer;
+  }
+
+  .extras h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .extras h3 {
+    font-size: 25px;
+    font-family: "Bebas Neue", cursive;
+    margin-top: -5px;
+    margin-left: 110px;
+  }
+
+  .extras img {
+    height: 90px;
+    width: 90px;
+    float: left;
+  }
+
+  .extras svg {
+    display: inline-block;
+    margin-top: 10px;
+  }
+
+  .extras-children p {
+    margin-top: -20px;
+    margin-left: 110px;
+  }
+
+  .wrapper {
+    margin-left: 170px;
+    margin-top: -46px;
+  }
+
+  footer {
+    width: 414px;
+    background-color: #f2f2f2;
+    font-size: 20px;
+    font-family: "Bebas Neue", cursive;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  footer p {
+    margin: 0;
+  }
+
+  footer img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    width: 768px;
+  }
+
+  .menu {
+    width: 768px;
+    height: 180px;
+    position: fixed;
+    top: 0;
+    background-color: #f2f2f2;
+    border-bottom: 2px solid rgba(13, 13, 13, 0.5);
+    z-index: 99;
+  }
+
+  .menu img {
+    display: grid;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+  }
+
+  .burger {
+    visibility: hidden;
+  }
+
+  .menu-text {
+    visibility: hidden;
+  }
+
+  .logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #eb5428;
+    width: 90px;
+    height: 75px;
+  }
+
+  .search-icon {
+    position: fixed;
+    top: 12px;
+    margin-left: 620px;
+    height: 46px;
+    width: 46px;
+    background-color: #eb5428;
+    z-index: 100;
+  }
+
+  .search-bar input {
+    position: fixed;
+    top: 12px;
+    margin-left: 350px;
+    height: 40px;
+    width: 300px;
+    border: 2px solid #0d0d0d;
+    z-index: 100;
+  }
+
+  .menu ul {
+    overflow: visible;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    position: fixed;
+    width: 768px;
+  }
+
+  .menu li a {
+    padding: 0;
+    display: grid;
+    margin-top: 20px;
+    color: #eb5428;
+  }
+
+  .menu li {
+    padding: 0;
+  }
+
+  .menu li:hover {
+    background-color: transparent;
+    color: #f2f2f2;
+  }
+
+  input {
+    width: 100%;
+    height: 40px;
+    z-index: 100;
+  }
+
+  .retention-icons {
+    position: absolute;
+    width: 768px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 35px 30px;
+    grid-gap: 1px 10px;
+    font-size: 20px;
+    font-family: "Bebas Neue", cursive;
+    padding: 0;
+    list-style-type: none;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.65);
+  }
+
+  .retention-children:hover {
+    cursor: pointer;
+  }
+
+  .retention-children {
+    display: grid;
+    padding: 5px;
+    color: #eb5428;
+    padding-top: 10px;
+  }
+
+  .retention-children a:hover {
+    background-color: #eb5428;
+    color: #f2f2f2;
+    cursor: pointer;
+  }
+
+  #entree h1 {
+    text-align: left;
+    padding-left: 15px;
+    margin-top: 30px;
+  }
+
+  #entree img {
+    width: 768px;
+    height: 100%;
+  }
+
+  .instruction-child {
+    text-align: center;
+  }
+
+  .ingredients-directions {
+    width: 768px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 1px 10px;
+    padding: 0;
+  }
+
+  .recipe-step-block {
+    display: grid;
+    padding: 5px;
+  }
+
+  aside {
+    height: 350px;
+  }
+
+  .extras-block {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+  }
+
+  .extras h2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .extras h3 {
+    font-size: 25px;
+    font-family: "Bebas Neue", cursive;
+    margin-top: -5px;
+    margin-left: 110px;
+  }
+
+  .extras img {
+    height: 100px;
+    width: 100px;
+  }
+
+  .extras-children p {
+    margin-top: -20px;
+    margin-left: 110px;
+  }
+
+  .connect {
+    background-color: #f2f2f2;
+    height: 20px;
+  }
+
+  .connect ul {
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 35px 30px;
+    grid-gap: 1px 1px;
+    justify-items: center;
+    position: absolute;
+    margin-left: 275px;
+    font-size: 20px;
+    font-family: "Bebas Neue", cursive;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  .connect-child {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+  }
+
+  .connect a {
+    color: #eb5428;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  .connect li a:hover {
+    cursor: pointer;
+    background-color: #eb5428;
+    color: #f2f2f2;
+  }
+
+  .extras img {
+    margin-left: 0;
+  }
+
+  footer {
+    width: 768px;
+    background-color: #f2f2f2;
+    font-size: 20px;
+    font-family: "Bebas Neue", cursive;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  footer p {
+    margin: 0;
+    padding-right: 450px;
+  }
+
+  footer img {
+    width: 175px;
+    height: 175px;
+    padding-right: 450px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  body {
+    background-color: #7abfbf;
+    margin: 0 auto;
+    width: 1280px;
+  }
+
+  aside {
+    height: 500px;
+  }
+
+  .menu {
+    width: 1280px;
+    height: 105px;
+  }
+
+  .menu ul {
+    margin-left: 275px;
+  }
+
+  .logo {
+    width: 90px;
+    height: 75px;
+    padding: 15px;
+  }
+
+  .menu li a {
+    margin-top: -50px;
+  }
+
+  .search-icon {
+    position: absolute;
+    top: 140px;
+    margin-left: 755px;
+    height: 45px;
+    width: 45px;
+    z-index: 98;
+  }
+
+  .search-bar input {
+    position: absolute;
+    top: 140px;
+    margin-left: 485px;
+    height: 40px;
+    width: 300px;
+    border: 2px solid #0d0d0d;
+    z-index: 98;
+  }
+
+  #entree h1 {
+    text-align: center;
+    padding-left: 0;
+    margin-top: 50px;
+  }
+
+  #entree ul {
+    padding-left: 0;
+  }
+
+  #entree img {
+    width: 550px;
+    height: 100%;
+    margin-left: 80px;
+    background-color: #f2f2f2;
+  }
+
+  .retention-icons {
+    position: absolute;
+    padding-top: 20px;
+    grid-template-rows: repeat(8, 40px);
+    grid-template-columns: 1fr;
+    width: 78px;
+    height: 801px;
+    border: 2px solid #eb5428;
+    background-color: transparent;
+  }
+
+  .retention-children:nth-of-type(1) {
+    order: 1;
+  }
+
+  .retention-children:nth-of-type(2) {
+    order: 3;
+  }
+
+  .retention-children:nth-of-type(3) {
+    order: 5;
+  }
+
+  .retention-children:nth-of-type(4) {
+    order: 7;
+  }
+
+  .retention-children:nth-of-type(5) {
+    order: 2;
+  }
+
+  .retention-children:nth-of-type(6) {
+    order: 4;
+  }
+
+  .retention-children:nth-of-type(7) {
+    order: 6;
+  }
+
+  .retention-children:nth-of-type(8) {
+    order: 8;
+  }
+
+  #entree p {
+    position: relative;
+    bottom: 835px;
+    left: 650px;
+    width: 600px;
+    line-height: 2;
+  }
+
+  .instructions {
+    position: absolute;
+    top: 1092px;
+    width: 1280px;
+    background-color: #0d0d0d;
+    color: #7abfbf;
+  }
+
+  .instruction-section {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    padding-bottom: 10px;
+  }
+
+  .instruction-child {
+    display: grid;
+    column-gap: 30px;
+  }
+
+  .ingredients-directions {
+    position: static;
+    top: 1300px;
+    margin-bottom: 400px;
+    width: 1280px;
+    grid-template-columns: 1fr 5fr;
+    margin-top: -170px;
+  }
+
+  .directions {
+    position: absolute;
+    top: 1300px;
+    width: 1050px;
+  }
+
+  .extras {
+    margin-left: 45px;
+    margin-top: -390px;
+  }
+
+  .extras-block {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 0;
+    margin-right: 15px;
+    grid-row-end: 4;
+  }
+
+  .extras-block img {
+    width: 250px;
+    height: 250px;
+    padding: 0;
+    border: 0;
+  }
+
+  .extras h3 {
+    font-size: 25px;
+    font-family: "Bebas Neue", cursive;
+    margin-top: 280px;
+    margin-left: 10px;
+  }
+
+  .extras-children p {
+    margin-left: 10px;
+  }
+
+  .wrapper {
+    margin-left: 75px;
+  }
+
+  .connect ul {
+    margin-left: 680px;
+    margin-top: 30px;
+    grid-gap: 1px 75px;
+  }
+
+  footer {
+    width: 1280px;
+    height: 200px;
+  }
+
+  footer img {
+    margin-left: -600px;
+  }
+
+  footer p {
+    text-align: left;
+    margin-left: 230px;
+    margin-top: -160px;
+  }
+
+  footer div {
+    position: absolute;
+    top: 2150px;
+  }
+}
